@@ -1,217 +1,143 @@
-# Awesome-Developer-Portal-Platform
+# Awesome Developer Portal Platform 🚀
 
-## Top Developer Portal Platform Ecosystem
+[![Banner](assets/banner.svg)](https://github.com/ishandutta2007/Awesome-Developer-Portal-Platform)
 
+<p center>
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Developer-Portal-Platform"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Developer-Portal-Platform?style=flat-square&logo=github" alt="GitHub Stars"/></a> <a href="https://github.com/ishandutta2007/Awesome-Developer-Portal-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Developer-Portal-Platform?style=flat-square&logo=github" alt="GitHub Forks"/></a> <a href="https://github.com/ishandutta2007/Awesome-Developer-Portal-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Developer-Portal-Platform?style=flat-square" alt="License"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🌟 Top Developer Portal Platform Ecosystem 2026
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**A Curated List of SaaS Products & Open-Source GitHub Projects for Internal Developer Portals (IDP), Service Catalogs, and Platform Engineering.**
 
-*Focused on Internal Developer Portals, Service Catalogs & Platform Engineering*  
+Welcome to the ultimate directory for **Developer Portals**, **Internal Developer Platforms (IDP)**, **Service Catalogs**, **Microservices Governance**, and **Platform Engineering tools**. These solutions provide unified self-service interfaces for engineering teams to discover microservices, streamline API documentation, scaffold new projects, automate workflows, track operational scorecards, and significantly reduce cognitive load across modern cloud-native architectures.
 
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Developer Portals**. These tools provide a unified interface for developers to discover services, access documentation, scaffold new projects, and perform self-service actions — reducing cognitive load and accelerating delivery.
-
-
-
-**Examples** include Backstage, Port, OpsLevel, Cortex, Roadie, Harness IDP, Spotify Portal, Humanitec, Atlassian Compass, and Mia-Platform (the category leaders).
-
-
-
-**Open-source emphasis**: Developer portals are one of the strongest open-source domains in platform engineering. **Backstage** (CNCF) holds roughly 89% market share among organizations that have committed to a portal , while **Kratix**, **OpenChoreo**, and **Torii** provide production-grade alternatives. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Port](https://www.port.io/)**  
-
-  Managed, API-first internal developer portal with flexible blueprints for modeling any entity (services, environments, clusters, teams). Self-service actions trigger GitHub Actions, Terraform, or webhooks without custom code. Real-time sync from Kubernetes, cloud providers, and Git keeps the catalog current. Best for teams wanting a production portal in days without dedicating engineers to maintenance . Free tier up to 15 seats .
-
-
-
-- **[Cortex](https://www.cortex.io/)**  
-
-  Service catalog and engineering intelligence platform with the deepest scorecard engine in the category. Define multi-dimensional quality standards (production readiness, security, documentation, operational maturity) and drive organization-wide improvement initiatives. AI engine (Magellan) assists catalog auditing. Best for leadership-driven standards enforcement across many services . Pricing approximately $65–69 per user/month .
-
-
-
-- **[OpsLevel](https://www.opslevel.com/)**  
-
-  Managed service catalog with automated service discovery from repos and infrastructure. Reputation for faster setup and simpler data model than Port's blueprint system. Scorecards, ownership tracking, and maturity rubrics with delivery lifecycle focus. Best for teams wanting a working catalog in days with minimal data modeling .
-
-
-
-- **[Roadie](https://roadie.io/)**  
-
-  Fully managed, hosted Backstage. Handles upgrades, hosting, and GitHub rate-limit issues that burden self-hosters. Includes Backstage catalog, TechDocs, API specs, self-service templates, 75+ plugins, SSO, RAG-based AI search, and MCP server. Teams plan at $24 per developer/month for 50–150 developers. Best for teams wanting Backstage's ecosystem without operating it .
-
-
-
-- **[Spotify Portal](https://backstage.spotify.com/)**  
-
-  No-code SaaS version of Backstage from the team that built it. Setup wizard connects to GitHub and auto-imports services. Ships with Soundcheck (Spotify's scorecard plugin) and a UI-based plugin installer. GA since October 2025. Customers include Capital One, PagerDuty, 2K Games, and Linux Foundation. Best for teams trusting the Backstage roadmap with minimal setup friction .
-
-
-
-- **[Atlassian Compass](https://www.atlassian.com/software/compass)**  
-
-  Software component catalog with health scorecards, deeply integrated into Jira, Confluence, and Bitbucket. Component catalog, scorecards, and operations management wired into existing Atlassian workflows. Free for up to 3 users; Standard $7.67/user/month; Premium $23.96/user/month. Best for Atlassian-native organizations wanting a catalog without five-figure spend .
-
-
-
-- **[Harness IDP](https://www.harness.io/)**  
-
-  Internal developer portal integrated with Harness's broader software delivery platform.
-
-
-
-- **[Humanitec](https://humanitec.com/)**  
-
-  Platform orchestrator centered on the open-source **Score** workload specification. Dynamic configuration management without static manifests per environment. Platform Orchestrator resolves resource dependencies automatically. Best for teams whose pain is environment drift and provisioning, not service cataloging .
-
-
-
-- **[Mia-Platform](https://mia-platform.eu/)**  
-
-  Platform engineering suite with developer portal capabilities for cloud-native application development.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Backstage](https://github.com/backstage/backstage)**  
-
-  The de facto standard open-source developer portal, built at Spotify and now a CNCF incubating project. Software catalog as single source of truth, TechDocs for documentation-as-code, Scaffolder for templated service creation, and 200+ community plugins for CI/CD, monitoring, cloud resources, and cost . **Trade-off**: It is a framework, not a product. 2–4 months to first meaningful value, requiring React/TypeScript expertise and 1–2 FTE for ongoing maintenance . Plugin quality varies from production-ready to abandoned. Best for organizations with 100+ developers and a dedicated platform team .
-
-
-
-- **[Kratix](https://github.com/syntasso/kratix)**  
-
-  Kubernetes-native platform-as-a-product framework with 705+ stars and Apache-2.0 license . Instead of a portal, Kratix extends the Kubernetes API with **Promises** — platform APIs developers consume via kubectl or GitOps. Composable Promises combine Crossplane, Terraform, and Helm. Multi-cluster by design, GitOps-friendly with everything as Kubernetes resources. **No built-in UI** — pair with Backstage or Port for the portal layer. Best for Kubernetes-heavy organizations wanting platform APIs, not portals .
-
-
-
-- **[OpenChoreo](https://github.com/openchoreo/openchoreo)**  
-
-  Complete, modular, open-source internal developer platform with 583+ stars and active weekly updates . Provides a full IDP stack beyond cataloging, including deployment workflows and environment management.
-
-
-
-- **[Torii](https://github.com/Qovery/Torii)**  
-
-  Simple, powerful, and extensible open-source internal developer portal from Qovery with 178+ stars . Lightweight alternative for teams wanting a portal foundation without Backstage's weight. Note: last pushed over a year ago — evaluate maintenance status before adoption .
-
-
-
-- **[Hatica](https://github.com/haticahq/hatica)**  
-
-  Open-source internal developer portal described as modern, powerful, and customizable . Active development signal.
-
-
-
-- **[Meshery](https://github.com/meshery/meshery)**  
-
-  CNCF project for standardizing and routinizing Kubernetes patterns. Meshery Catalog functions more like a cloud marketplace than a traditional software catalog — discover and deploy Kubernetes-based infrastructure and tools, share configurations and best practices. Best for orchestrating infrastructure needs and sharing platform patterns across teams .
-
-
-
-- **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)**  
-
-  Open-source unified data platform creating a central metadata repository for observability, governance, and data discovery. Five components: UI, search engine, API catalog, entity store, and ingestion framework. More similar to an internal developer portal than a standard service catalog. JSON-based entity definitions support multiple languages .
-
-
-
-- **[Backline](https://github.com/iamgoroot/backline)**  
-
-  IDP inspired by Backstage, written in Go and HTMX . Lighter-weight alternative for teams preferring Go over React/TypeScript.
-
-
-
-- **[x-port](https://github.com/tang95/x-port)**  
-
-  Out-of-the-box internal developer portal based on platform engineering philosophy, aimed at improving developer experience and efficiency .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Backstage Helm Charts** — Helm charts for deploying Backstage on Kubernetes .
-
-- **backstage-plugin-common-tools** — Most commonly used developer tools within Backstage .
-
-- **Platform Engineering Awesome Lists** — Curated collections of platform engineering tools including `awesome-platform-engineering` and `awesome-platform-engineering-tools` .
-
-- **BACK Stack** — Ready-made environment combining Backstage, Crossplane, and ArgoCD with GitOps practices .
-
-- **Rely.io Galaxy OSS** — Python framework for connecting to third-party APIs and mapping data into Rely's data model .
-
-
-
-**Frameworks for building custom developer portal solutions**: Choose based on team capacity and requirements. **Backstage** for maximum extensibility and full control when you have 1–2 FTE to dedicate to maintenance . **Port** for production-grade catalog and self-service in days, with no operational burden . **Cortex** when leadership needs initiative tracking and compliance dashboards across 200+ services . **Kratix** for Kubernetes-native platform APIs, paired with a portal for the UI layer . **Meshery** for infrastructure orchestration and pattern sharing across Kubernetes environments . For most mid-market teams (30–200 devs), commercial portals offer faster time-to-value than self-hosted Backstage — the free tiers of Port make evaluation straightforward .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Developer portals integrate with source control, CI/CD, cloud infrastructure, and monitoring systems. Self-hosted solutions require proper security hardening, access controls, and ongoing maintenance.
-
-- Backstage is a framework requiring significant engineering investment — treat it as a product, not a side project . Evaluate total cost of ownership (engineering headcount typically $200K–$500K/year for a platform team) before choosing self-hosted over commercial alternatives .
-
-- The open-source ecosystem provides strong catalog, documentation, and scaffolding foundations, but managed operations, vendor support, and enterprise SLAs remain primarily commercial offerings.
-
-
+> 💡 **SEO Keywords**: *Internal Developer Portal, Developer Experience (DevEx), IDP Framework, Backstage Alternatives, Service Catalog, Software Architecture Catalog, Microservices Scorecard, Platform Engineering Tools, Infrastructure Scaffolding, Software Templates.*
 
 ---
 
+## 📑 Table of Contents
+- [🏢 Market Overview & Market Size](#-market-overview--market-size)
+- [💼 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [⚡ Open-Source GitHub Projects](#-open-source-github-projects)
+- [📚 Ecosystem Tools & Extensions](#-ecosystem-tools--extensions)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
+---
 
-**Made for platform engineers, DevOps leads, developer experience teams, and engineering leaders.**  
+## 🏢 Market Overview & Market Size
 
-Let's make developer portals more open, transparent, and developer-centric.
+The **Global Internal Developer Portal & Platform Engineering Market** is estimated at **$1.8 Billion – $2.5 Billion in 2026**, projected to exceed **$6.2 Billion by 2030** (CAGR of ~28.5%). 
+
+### 📊 Industry Fragmentation & Market Structure
+* **Market Fragmentation Status**: **Moderately Fragmented with a Dominant Open-Source Anchor.**
+* **Open-Source Dominance**: **CNCF Backstage** acts as the gravity center of the open-source sector, holding ~85–89% adoption share among self-hosted enterprises.
+* **SaaS & Commercial Segment**: The SaaS market is **moderately fragmented** among specialized category leaders (e.g. *Port*, *Cortex*, *OpsLevel*, *Roadie*) and large cloud/DevOps platform suites (*Atlassian Compass*, *Harness IDP*). It is not currently a "winner-take-all" market; rather, enterprise adopters split between out-of-the-box API-first SaaS blueprints and custom Backstage-based developer platforms.
+
+---
+
+## 💼 SaaS / Hosted Platforms
+
+Below is the curated list of leading **SaaS and Hosted Developer Portal Platforms**, ordered by **Company Size / Valuation / Revenue (Descending)**:
+
+| 🏢 Platform | 📝 Description | 💰 Valuation / Revenue Size | 💵 Starting Price | 🎁 Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Atlassian Compass](https://www.atlassian.com/software/compass)** | Software component catalog with health scorecards, deeply integrated into Jira, Confluence, and Bitbucket workflows. | **~$45B Market Cap** ($6.57B FY26 Revenue) | **$8.00 / creator / month** (Standard plan; Premium at $25/mo) | **Free Forever** up to 3 full users (unlimited view-only users); 14-day trial for Premium |
+| **[Harness IDP](https://www.harness.io/)** | Internal developer portal integrated with Harness software delivery platform, using Harness Subscription Units (HSU). | **$5.5B Valuation** (>$250M ARR, $240M Series E) | **Usage-based unit pricing** via HSU pool | **Free Forever** tier providing **1,000 free HSUs per month** across modules |
+| **[Port](https://www.port.io/)** | Managed, API-first internal developer portal with flexible entity blueprints, self-service actions, and live K8s/Cloud sync. | **$800M Valuation** ($100M Series C in Dec 2025) | **$30 / seat / month** (Basic plan, billed annually) | **Free Forever** plan up to **15 seats** & 10,000 entities (no credit card required) |
+| **[Cortex](https://www.cortex.io/)** | Service catalog and engineering intelligence platform with multi-dimensional quality scorecards and AI auditing (Magellan). | **$470M Valuation** ($60M Series C led by ScaleVP) | **Custom enterprise quote** (~$60k–$170k/yr indicative contract value) | **No free tier**; interactive demo / proof-of-concept available upon request |
+| **[Humanitec](https://humanitec.com/)** | Platform orchestrator centered on open-source **Score** spec for dynamic configuration management without environment drift. | **~$100M–$200M Est. Valuation** (Series A funded) | **€1,999 / month** (Teams plan, includes base seats & environments) | **30-day free trial** (no credit card required); no permanent free tier |
+| **[Mia-Platform](https://mia-platform.eu/)** | Enterprise platform engineering suite with dev portal capabilities for end-to-end cloud-native application lifecycle management. | **~$100M–$180M Est. Valuation** (Enterprise scale bootstrapped/funded) | **Custom enterprise contract** (~$60k–$180k/yr indicative contract value) | **No public free tier or self-service trial**; demo environment available upon request |
+| **[OpsLevel](https://www.opslevel.com/)** | Managed service catalog with automated repo/infra discovery, maturity rubrics, scorecards, and developer ownership tracking. | **~$50M–$100M Est. Valuation** ($20M Total Funding, Series A) | **Custom enterprise quote** (~$39 / developer / month indicative rate) | **No free trial or free tier**; interactive guided product tour and demo available |
+| **[Roadie](https://roadie.io/)** | Fully managed, hosted Backstage SaaS with TechDocs, API specs, templates, 75+ plugins, SSO, RAG AI search, and MCP server. | **~$20M–$50M Est. Valuation** (Backed by Boldstart & VC investors) | **$24 / developer / month** (Teams plan for 50–150 developers) | **30-day free trial** for SaaS; **Roadie Local** free forever for <15 users |
+| **[Spotify Portal](https://backstage.spotify.com/)** | Managed no-code SaaS version of Backstage from its original creators, shipping with Soundcheck plugin and UI installer. | **Division of Spotify ($80B+ Market Cap)** | **Custom enterprise subscription** (Quote via Spotify sales) | **Enterprise trial available upon request** via sales contact form; no self-serve free tier |
+
+---
+
+## ⚡ Open-Source GitHub Projects
+
+Developer portals are one of the vibrant open-source domains in platform engineering. Below is the list of production-grade open-source developer portal projects and platform APIs, sorted by **GitHub Stars (Descending)**:
+
+- **[Backstage](https://github.com/backstage/backstage)** [<img src="https://img.shields.io/github/stars/backstage/backstage?style=social&color=white" alt="Backstage Stars"/>](https://github.com/backstage/backstage/stargazers)  
+  🏆 The de facto standard open-source developer portal, created by Spotify and hosted by CNCF (Incubating). Provides a centralized Software Catalog, TechDocs as Code, Scaffolder templates, and 200+ community plugins for CI/CD, Kubernetes, and cloud costs. *Requires React/TypeScript expertise.*
+
+- **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** [<img src="https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white" alt="OpenMetadata Stars"/>](https://github.com/open-metadata/OpenMetadata/stargazers)  
+  📊 Unified open-source metadata platform creating a central repository for data assets, service governance, schema discovery, and entity tracking across complex data engineering environments.
+
+- **[Meshery](https://github.com/meshery/meshery)** [<img src="https://img.shields.io/github/stars/meshery/meshery?style=social&color=white" alt="Meshery Stars"/>](https://github.com/meshery/meshery/stargazers)  
+  🕸️ CNCF cloud-native management project featuring the Meshery Catalog to discover, design, and deploy Kubernetes patterns, service meshes, and infrastructure designs.
+
+- **[Kratix](https://github.com/syntasso/kratix)** [<img src="https://img.shields.io/github/stars/syntasso/kratix?style=social&color=white" alt="Kratix Stars"/>](https://github.com/syntasso/kratix/stargazers)  
+  ☸️ Kubernetes-native platform-as-a-product framework extending the K8s API with **Promises** to deliver custom platform capabilities. GitOps-first, multi-cluster backend that integrates with UI portals like Backstage or Port.
+
+- **[OpenChoreo](https://github.com/openchoreo/openchoreo)** [<img src="https://img.shields.io/github/stars/openchoreo/openchoreo?style=social&color=white" alt="OpenChoreo Stars"/>](https://github.com/openchoreo/openchoreo/stargazers)  
+  📦 Complete open-source internal developer platform designed for microservice deployment workflows, self-service environments, and continuous app delivery.
+
+- **[Torii](https://github.com/Qovery/Torii)** [<img src="https://img.shields.io/github/stars/Qovery/Torii?style=social&color=white" alt="Torii Stars"/>](https://github.com/Qovery/Torii/stargazers)  
+  ⛩️ Lightweight open-source internal developer portal by Qovery designed as a fast, simple catalog alternative for engineering teams.
+
+- **[Backline](https://github.com/iamgoroot/backline)** [<img src="https://img.shields.io/github/stars/iamgoroot/backline?style=social&color=white" alt="Backline Stars"/>](https://github.com/iamgoroot/backline/stargazers)  
+  🐹 High-performance IDP inspired by Backstage, written in **Go** and **HTMX** for teams seeking lightweight server-side rendering over React.
+
+- **[x-port](https://github.com/tang95/x-port)** [<img src="https://img.shields.io/github/stars/tang95/x-port?style=social&color=white" alt="x-port Stars"/>](https://github.com/tang95/x-port/stargazers)  
+  ✨ Ready-to-use open-source developer portal centered on developer experience, service discovery, and workflow acceleration.
+
+- **[Hatica](https://github.com/haticahq/hatica)** [<img src="https://img.shields.io/github/stars/haticahq/hatica?style=social&color=white" alt="Hatica Stars"/>](https://github.com/haticahq/hatica/stargazers)  
+  🎯 Modern open-source internal developer portal and engineering intelligence software catalog.
+
+---
+
+## 📚 Ecosystem Tools & Extensions
+
+- ⚓ **[Backstage Helm Charts](https://github.com/backstage/charts)** — Official Helm charts for deploying Backstage on Kubernetes.
+- 🧰 **[backstage-plugin-common-tools](https://github.com/backstage/community-plugins)** — Curated suite of common utility plugins for Backstage portals.
+- 📑 **[Platform Engineering Awesome Lists](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)** — Curated platform engineering resources and awesome lists directory.
+- 🔁 **[BACK Stack](https://github.com/backstack-org)** — Blueprint combining **B**ackstage, **A**rgoCD, **C**rossplane, and **K**ubernetes with GitOps practices.
+- 🌌 **[Rely.io Galaxy OSS](https://github.com/rely-io)** — Python SDK & framework for mapping third-party API data into portal catalogs.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are very welcome! To submit a new Developer Portal SaaS or Open-Source project:
+
+1. 🍴 Fork this repository.
+2. 📝 Add/edit entries in `README.md` keeping formatting consistent.
+3. 📌 Ensure you include name, official link, factual summary, pricing/stars badge, and correct section.
+4. 🚀 Submit a Pull Request!
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated list helpful for your platform engineering journey or choosing an Internal Developer Portal, please consider showing your support:
+
+- ⭐ **Star this repository** on GitHub to help others discover it!
+- 🔀 **Fork & Share** it with your DevOps and DevEx communities.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and research, visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the open platform engineering community! ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Developer-Portal-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Developer-Portal-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for informational purposes and does not constitute formal financial or architectural advice.
+- Pricing details, free limits, and valuations reflect public vendor announcements and market research as of **October 2026**.
+- Always perform your own proof-of-concept evaluation when selecting developer portal infrastructure.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for platform engineers, DevOps leads, developer experience teams, and engineering leaders worldwide.</b>
+</p>
+
